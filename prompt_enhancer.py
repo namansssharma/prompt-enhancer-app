@@ -15,7 +15,7 @@ if st.button("Enhance Prompt"):
     if not draft.strip():
         st.warning("Please enter a draft prompt.")
     else:
-        # Demo output - shows structured approach
+        # Demo output - shows structured approaches
         instruction = (
             "Generate an enhanced, structured prompt using RCT.\n"
             "1) Improve clarity and completeness\n"
